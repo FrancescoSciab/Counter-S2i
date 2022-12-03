@@ -26,6 +26,7 @@ body {
     border-radius: 7px;
     background-color: #8aabbe;
     font-size: 35px;
+    color: #E4E5E6;
 
 }
 
@@ -33,6 +34,7 @@ body {
 #plus:hover{
     background-color: #E4E5E6;
     transition: 0.1s ease-in-out;
+    color: #8aabbe;
 }
 
 #minus:active,
