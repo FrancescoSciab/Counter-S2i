@@ -22,10 +22,11 @@ body {
 
 #minus,
 #plus {
-    height: 25px;
-    width: 25px;
-    border: 1px solid #E4E5E6;
+    border: 2px solid #E4E5E6;
+    border-radius: 7px;
     background-color: #8aabbe;
+    font-size: 35px;
+
 }
 
 #minus:hover,
