@@ -21,8 +21,7 @@ body {
 
 }
 
-#minus,
-#plus {
+input{
     border: 2px solid #E4E5E6;
     border-radius: 7px;
     background-color: #8aabbe;
@@ -30,15 +29,15 @@ body {
     color: #E4E5E6;
 }
 
-#minus:hover,
-#plus:hover{
+input:hover,
+input:hover{
     background-color: #E4E5E6;
     transition: 0.1s ease-in-out;
     color: #8aabbe;
 }
 
-#minus:active,
-#plus:active{
+input:active,
+input:active{
     transform: scale(0.9);
     transition: 0.2s ease-in;
 }
