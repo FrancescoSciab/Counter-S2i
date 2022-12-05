@@ -3,11 +3,11 @@ Progetto per Start2Impact University. Counter
 readme
 
 
-DESCRIZIONE
+**DESCRIZIONE**
 Benvenuti nel mio secondo progetto Start2Impact University. Ho realizzato un counter le cui funzionalità sono state implementate con Javascript (anche il file HTML) così da mostrare le mie competenze con questo linguaggio di programmazione. Questa app permette di aumentare e diminuire il valore del numero presente al centro.
 
 
-ISTRUZIONI
+**ISTRUZIONI**
 Non e' necessario installare alcun software. Appena aperto il file sarà possibile premere due pulsanti:
 - Premere il pulsante con il segno meno per decrementare il valore dell'unico numero presente.
 <img width="1440" alt="Screenshot 2022-12-05 at 10 46 33" src="https://user-images.githubusercontent.com/108572560/205618861-c32edf56-e72f-412b-85aa-a942c0ba234d.png">
@@ -19,5 +19,5 @@ Non e' necessario installare alcun software. Appena aperto il file sarà possibi
 <img width="1440" alt="Screenshot 2022-12-04 at 11 35 40" src="https://user-images.githubusercontent.com/108572560/205617728-e93ffd03-c332-4bf4-a127-fe235e8766de.png">
 
 
-I MIEI PROGETTI PRECEDENTI
+**I MIEI PROGETTI PRECEDENTI**
 - Sito web personale contenente i miei progetti. Link: https://francescosciab.github.io/IT-Start2Impact_HTML_CSS/
