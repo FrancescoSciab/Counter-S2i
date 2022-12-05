@@ -29,6 +29,9 @@ input{
     color: #E4E5E6;
 }
 
+input:hover {
+    transition: 0.1s ease-out;
+}
 
 input:active{
     background-color: #E4E5E6;
