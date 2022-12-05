@@ -12,7 +12,9 @@ Non e' necessario installare alcun software. Appena aperto il file sarà possibi
 - Premere il pulsante con il segno meno per decrementare il valore dell'unico numero presente.
 - Premere il pulsante con il segno più così da incrementare il valore dell'unico numero presente.
 - Ricaricare la pagine per azzerare il valore dell'unico numero presente.
-<img src="assets/img/screenshot 2022-12-04 at 11.35.40.png">
+
+Smartphones e tablets responsive. Piccole differenze su computer poichè il "container" non si estende al massimo.
+
 
 I MIEI PROGETTI PRECEDENTI
 - Sito web personale contenente i miei progetti. Link: https://francescosciab.github.io/IT-Start2Impact_HTML_CSS/

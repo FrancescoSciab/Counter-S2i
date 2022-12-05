@@ -25,21 +25,17 @@ input{
     border: 2px solid #E4E5E6;
     border-radius: 7px;
     background-color: #8aabbe;
-    font-size: 35px;
+    font-size: 20px;
     color: #E4E5E6;
 }
 
-input:hover,
-input:hover{
-    background-color: #E4E5E6;
-    transition: 0.1s ease-in-out;
-    color: #8aabbe;
-}
 
-input:active,
 input:active{
+    background-color: #E4E5E6;
     transform: scale(0.9);
-    transition: 0.2s ease-in;
+    transition: 0.1s ease-out;
+    color: #8aabbe;
+    cursor: pointer;
 }
 
 span{
@@ -50,5 +46,16 @@ span{
 @media screen and (min-width: 900px) {
     #container{
         margin: 40px auto;
+    }
+    
+    input{
+        font-size: 35px;
+    }
+
+    input:hover{
+        background-color: #E4E5E6;
+        transition: 0.1s ease-out;
+        color: #8aabbe;
+        cursor: pointer;
     }
 }
