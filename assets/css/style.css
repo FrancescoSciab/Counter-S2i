@@ -27,10 +27,7 @@ input{
     background-color: #8aabbe;
     font-size: 20px;
     color: #E4E5E6;
-}
-
-input:hover {
-    transition: 0.1s ease-out;
+    transition-duration: 0.1s;
 }
 
 input:active{
