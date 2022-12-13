@@ -26,16 +26,15 @@ input{
     border-radius: 7px;
     background-color: #8aabbe;
     font-size: 20px;
+    cursor: pointer;
     color: #E4E5E6;
-    transition-duration: 0.1s;
 }
 
 input:active{
     background-color: #E4E5E6;
     transform: scale(0.9);
-    transition: 0.1s ease-out;
     color: #8aabbe;
-    cursor: pointer;
+    
 }
 
 span{

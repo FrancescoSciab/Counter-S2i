@@ -42,3 +42,6 @@ minusBtn.onclick = function decreaseValue() {
     return result.innerHTML--;
 }
 
+
+
+//toprevent double click
