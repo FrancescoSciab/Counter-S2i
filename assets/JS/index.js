@@ -32,14 +32,12 @@ document.body.firstElementChild.prepend(minusBtn);
 //Assigning increasing function
 
 plusBtn.onclick = function increaseValue() {
-    let result = document.getElementById("result");
-    return result.innerHTML++;
+    result.innerHTML++;
 }
 
 //Assigning decreasing function
 minusBtn.onclick = function decreaseValue() {
-    let result = document.getElementById("result");
-    return result.innerHTML--;
+    result.innerHTML--;
 }
 
 

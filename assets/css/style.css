@@ -23,7 +23,7 @@ body {
 
 input{
     border: 2px solid #E4E5E6;
-    
+    border-radius: 7px;
     background-color: #8aabbe;
     font-size: 20px;
     text-align: center;
