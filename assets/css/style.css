@@ -26,9 +26,9 @@ input{
     border-radius: 7px;
     background-color: #8aabbe;
     font-size: 20px;
-    cursor: pointer;
+    text-align: center;
     color: #E4E5E6;
-    transition: transform 0.2s;
+    cursor: pointer;
 }
 
 input:active{
@@ -54,7 +54,7 @@ span{
 
     input:hover{
         background-color: #E4E5E6;
-        transition: 0.1s ease-out;
+        transition: 0.1s ease-in;
         color: #8aabbe;
         cursor: pointer;
     }
