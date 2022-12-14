@@ -25,7 +25,7 @@ Non e' necessario installare alcun software. Appena aperto sarà possibile preme
 - Ricaricare la pagine per azzerare il valore dell'unico numero presente.
 <img width="1440" alt="Screenshot 2022-12-04 at 11 35 40" src="https://user-images.githubusercontent.com/108572560/205617728-e93ffd03-c332-4bf4-a127-fe235e8766de.png">
 
-Smartphones e tablets responsive. Piccole differenze su computer poichè il "container" non si estende al massimo.
+Smartphone e tablet responsive. Piccole differenze su computer poichè il "container" non si estende completamente.
 
 **I MIEI PROGETTI PRECEDENTI**
 - Sito web personale: https://francescosciab.github.io/IT-Start2Impact_HTML_CSS/
