@@ -1,41 +1,35 @@
-//Getting div container
-const container = document.getElementById("container");
+//Creating elements through "addElem" function
+function addElem(tagName, id, innerHTML, value, type) {
+    let elem = document.createElement(tagName);
+    elem.id= id;
+    elem.innerHTML = innerHTML;
+    elem.value = value;
+    elem.type = type;
 
-
-//creating first button (+) by using input
-const plusBtn = document.createElement("input");
-plusBtn.type = "button";
-plusBtn.value = "+";
-
-
-//creating result output by using a span
-let number = document.createElement("span");
-number.id = "result";
-number.innerText = 0;
-
-
-//creating second button (-) by using input
-const minusBtn = document.createElement("input");
-minusBtn.type = "button";
-minusBtn.value = "-";
-
-
-//inserting plus button
-document.body.firstElementChild.prepend(plusBtn);
-//inserting result
-document.body.firstElementChild.prepend(number);
-//inserting minus button
-document.body.firstElementChild.prepend(minusBtn);
-
-
-//Assigning increasing function
-plusBtn.onclick = function increaseValue() {
-    let result = document.getElementById("result");
-    return result.innerText++;
+    //inserting elements(to be declared inside this function as "elem" is a local variable)
+    document.body.firstElementChild.insertAdjacentElement("afterbegin", elem);
 }
 
-//Assigning decreasing function
-minusBtn.onclick = function decreaseValue() {
+
+//Assigning
+let plusBtn = addElem("input", null, null, "+", "button");
+let number = addElem("span", "result", 0, null, null);
+let minusBtn = addElem("input", null, null, "-", "button");
+
+
+//Buttons working through "updateValue" function
+document.body.firstElementChild.addEventListener('click', function updateValue(event) {
+
     let result = document.getElementById("result");
-    return result.innerText--;
-}
+    if (event.target.value == "+") {
+        result.innerHTML++;
+    } else if (event.target.value == "-") {
+        result.innerHTML--;
+    } else return;
+});
+
+
+//preventing zoom increase on double click
+document.body.addEventListener('dblclick', function(event) {
+    event.preventDefault();
+  });
