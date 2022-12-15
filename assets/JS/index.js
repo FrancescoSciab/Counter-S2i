@@ -28,6 +28,8 @@ document.body.firstElementChild.addEventListener('click', function updateValue(e
     } else return;
 });
 
+
+//preventing zoom increase on double click
 document.body.addEventListener('dblclick', function(event) {
     event.preventDefault();
   });
