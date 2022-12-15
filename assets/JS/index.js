@@ -30,5 +30,4 @@ document.body.firstElementChild.addEventListener('click', function updateValue(e
 
 document.body.addEventListener('dblclick', function(event) {
     event.preventDefault();
-    alert("Zoom non disponibile");
   });
