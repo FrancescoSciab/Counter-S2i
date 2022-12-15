@@ -1,31 +1,36 @@
+function CreateElem(tagName, id, innerHTML, value, type) {
+    let elem = document.createElement(tagName);
+    elem.id= id;
+    elem.innerHTML = innerHTML;
+    elem.value = value;
+    elem.type = type;
+
+    //inserting plus button
+document.body.firstElementChild.insertAdjacentElement("afterbegin", elem);
+//inserting result
+document.body.firstElementChild.insertAdjacentElement("afterbegin", elem);
+//inserting minus button
+document.body.firstElementChild.insertAdjacentElement("afterbegin", elem);
+
+}
+
 //Getting div container
 const container = document.getElementById("container");
 
 
-//creating first button (+) by using input
-const plusBtn = document.createElement("input");
-plusBtn.type = "button";
-plusBtn.value = "+";
+
+let plusBtn = new CreateElem("input", "null", "null", "+", "button");
+let number = new CreateElem("span", "result", 0, "null", "null");
+let minusBtn = new CreateElem("input", "null", "null", "-", "button");
 
 
 //creating result output by using a span
-let number = document.createElement("span");
-number.id = "result";
-number.innerText = 0;
+
 
 
 //creating second button (-) by using input
-const minusBtn = document.createElement("input");
-minusBtn.type = "button";
-minusBtn.value = "-";
 
 
-//inserting plus button
-document.body.firstElementChild.prepend(plusBtn);
-//inserting result
-document.body.firstElementChild.prepend(number);
-//inserting minus button
-document.body.firstElementChild.prepend(minusBtn);
 
 
 //Assigning increasing function
