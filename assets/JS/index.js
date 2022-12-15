@@ -12,9 +12,9 @@ function addElem(tagName, id, innerHTML, value, type) {
 
 
 //Assigning
-let plusBtn = addElem("input", "null", "null", "+", "button");
-let number = addElem("span", "result", 0, "null", "null");
-let minusBtn = addElem("input", "null", "null", "-", "button");
+let plusBtn = addElem("input", null, null, "+", "button");
+let number = addElem("span", "result", 0, null, null);
+let minusBtn = addElem("input", null, null, "-", "button");
 
 
 //Buttons working through "updateValue" function
