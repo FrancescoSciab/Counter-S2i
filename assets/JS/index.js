@@ -11,8 +11,7 @@ function addElem(tagName, id, innerHTML, value, type) {
 }
 
 
-
-
+//Assigning
 let plusBtn = addElem("input", "null", "null", "+", "button");
 let number = addElem("span", "result", 0, "null", "null");
 let minusBtn = addElem("input", "null", "null", "-", "button");
@@ -28,3 +27,8 @@ document.body.firstElementChild.addEventListener('click', function updateValue(e
         result.innerHTML--;
     } else return;
 });
+
+document.body.addEventListener('dblclick', function(event) {
+    event.preventDefault();
+    alert("Zoom non disponibile");
+  });
