@@ -1,13 +1,12 @@
 # Counter-S2i
-Progetto per Start2Impact University. Counter
-readme
+Start2Impact University project - Counter
 
 
 **DESCRIPTION**
-Welcome to my second project for Start2Impact University. I realized a counter +/- to dimonstrate my Javascript skills (with DOM manipulation as well). This app allows to increase and decrease the value at the center by clicking respectively "+" or "-".
+Welcome to my second project for Start2Impact University. I realized a counter +/- to demonstrate my Javascript skills (with DOM manipulation as well). This app allows to increase and decrease the value at the center by clicking respectively "+" or "-". Mobile-first development.
 
 **TECHNICAL DESCRIPTION**
-Developed with:
+Built with:
 - HTML
 - CSS
 - JAVASCRIPT
@@ -26,14 +25,17 @@ Please click "+" and "-" to change the value of the number at the center.
 - Reload the pahe to reset the value.
 <img width="1440" alt="Screenshot 2022-12-04 at 11 35 40" src="https://user-images.githubusercontent.com/108572560/205617728-e93ffd03-c332-4bf4-a127-fe235e8766de.png">
 
-Smartphone e tablet responsive. It's not allowed to zoom by double tapping on mobile to allow clicking buttons multiple times quickly. Da mobile non e' possibile ingrandire con il doppio click così da poter premere più volte i pulsanti. On desktop the container doesn't fully extend.
+Mobile and tablet responsive. It's not allowed to zoom by double tapping on mobile to allow clicking buttons multiple times quickly. On desktop the container doesn't fully extend.
 
 **OTHER PROJECTS**
 - [Lifestyle App](https://francescosciab.github.io/Lifestyle-App/)
 - [Calculator](https://francescosciab.github.io/Calculator/)
-- [Personal website](https://francescosciab.github.io/IT-Start2Impact_HTML_CSS/)
+- [Personal website](https://francescosciab.github.io/EN-PersonalWebsite/)
 - [Current project link](https://francescosciab.github.io/Counter-S2i/)
+- [Current project GitHub link](https://github.com/FrancescoSciab/Counter-S2i)
 
 **Contacts**
 - [Email me](mailto:francesco.sciabbarrasii@gmail.com)
-- [Personal website](https://francescosciab.github.io/EN-PersonalWebsite/)
+- [Personal website]()
+- [Linkedin](https://www.linkedin.com/in/francesco-sciabbarrasi-94231a212/?locale=en_US)
+- [GitHub](https://github.com/FrancescoSciab)
